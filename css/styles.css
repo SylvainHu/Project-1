@@ -42,10 +42,13 @@ ul {
 }
 
 li {
-  display: inline;
   margin-right: 20px;
   flex: 1;
   text-align: center;
+}
+
+li:hover {
+  background-color: rgb(168,168,168);
 }
 
 li a {
@@ -56,8 +59,8 @@ li a {
 }
 
 .logo {
-  width: 20%;
-  height: 10%;
+  width: 15%;
+  height: 5%;
 }
 
 /* Dropdown menu */
